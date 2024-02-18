@@ -1,43 +1,29 @@
-﻿<!--@page "/Courses/{course=Index}"-->
-<!--@code {-->
-<!--	[Parameter] public string Course { get; set; } = "Index";-->
-<!--}-->
+﻿<script>
+	import TextBlock from '../../TextBlock.svelte';
+	import Header from '../../Header.svelte';
+	import Subheader from '../../Subheader.svelte';
+</script>
 
-<div class="container">
-	<h2 class="text-center"> Courses </h2>
-	<h5 class="text-center"> 🔰 SaaS Select <code> &gt; </code> @Course </h5>
+<code>/courses/enterprise-level-password-management</code>
 
-	<div class="container">
-		<h3> 👀 At a glance </h3>
-		<p class="alert alert-light">
-			- What you'll learn: <br />
-			- Who this course is for: <br />
-			- Our guiding policies: <br />
-		</p>
+<TextBlock title="What you'll learn" icon="🔐" items="{[
+			{	header: 'The importance of password management', 
+				text: `This is just a primer - we presume you understand the value, since you're approaching us.`},
+			{	header: 'Password Manager Landscape',
+				text: `Just enough information to get you started on the right foot, making sure you don't get overwhelmed.`},
+			{	header: 'Personalized, practical advice',
+				text: `Here's where we apply the knowledge to your specific situation.`}]}"/>
 
-		<h3> @Course </h3>
-		<div class="border-secondary border-bottom border-1 mb-3">
+<TextBlock title="Full money back policy" icon="🤝" items="{[
+			{	header: `We're confident in our ability to help you`,
+				text: `We offer full money-back guarantee if you're not satisfied with our service. The only thing we require in return, is that you explain to us how we missed your expectations, so that we can improve in the future.`}]}"/>
 
-			<div class="text-lg-start text-secondary"> 🛟 How we can help </div>
-			<p>
-				Our trusted advisors will have a <b>calm conversation</b> with you about your needs and desires,
-				or simply <b>brainstorm</b> where you think your business will be in the next period.
-			</p>
-			<p>
-				For individuals, we offer <b>coaching and mentoring</b>, suggesting supportive subscription services along the way.
-				As we are neither affiliated - nor or get any commission from - any of the solutions we recommend, you can rest
-				assured that you are receiving as close to unbiased advice as can be given amongst fellow humans.
-			</p>
-		</div>
+<TextBlock title="Transparent pricing" icon="💱" items="{[
+			{	header: `£1000`,
+				text: `We're confident in our ability to relay the crucial information and to design a strategy for you to follow within 2-4 hours.`},
+]}"/>
 
-		<h3> Digital products </h3>
-		<div class="border-secondary border-bottom border-1 mb-3">
-
-			<div class="text-lg-start text-secondary"> 📢 To be announced </div>
-			<p>
-				We are developing some digital products that we believe will fill a gap in the market. We'll make further announcements
-				soon. Stay tuned!
-			</p>
-		</div>
-	</div>
-</div>
+<TextBlock title="Contact us today" icon="" items="{[
+			{	header: ``,
+				text: `💬📧 Contact us through chat or e-mail us at saas-select@lamti.net to schedule a meeting.`},
+]}"/>

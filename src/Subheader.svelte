@@ -1,0 +1,1 @@
+﻿<h5 class="text-xl"> <slot/> </h5>

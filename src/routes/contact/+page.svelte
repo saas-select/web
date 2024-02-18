@@ -1,26 +1,12 @@
-﻿<div class="container">
-	<h2 class="text-center"> Contact SaaS Select Ltd </h2>
+﻿<script>
+	import TextBlock from '../../TextBlock.svelte';
+</script>
 
-	<p>
-		The best way to contact us is by email. We will respond to your email within 24 hours.
-	</p>
-
-	<p>
-		If you'd prefer, we also operate a site-wide chat. You can find the chat icon in the bottom right corner of the screen.
-	</p>
-
-	<div class="row">
-		<div class="col-md-6">
-			<p>
-				SaaS Select Ltd <br/>
-				17 Minnow Avenue <br/>
-				King's Lynn, Norfolk <br/>
-				PE30 5FD <br/>
-				United Kingdom <br/>
-				<br/>
-				<strong>Phone:</strong> +44 (0) 7484 300 533 <br/>
-				<strong>Email:</strong> saas-select@lamti.net
-			</p>
-		</div>
-	</div>
+<div class="m-6">
+		<TextBlock title="Contact SaaS Select Ltd" icon="" items="{[
+		{ header: '📧 saas-select@lamti.net', text: 'The best way to contact us is by email. We will respond to your email within 24 hours.' },
+		{ header: '✉️ Postal address', text: '17 Minnow Avenue, King\'s Lynn, Norfolk, PE30 5FD, United Kingdom' },
+		{ header: '🤙🏼 Phone number', text: '+44 7484 300 533' },
+		{ header: '', text: '💬 Or, if you prefer, we also operate a site-wide chat. You can find the chat icon in the bottom right corner of the screen.' },
+	]}" />
 </div>
