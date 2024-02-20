@@ -15,8 +15,8 @@
 	</p>
 
 	<TextBlock title="Consultation / advisory services" icon="🛟" items="{[
-			{ header: 'How we can help', text: 'Our trusted advisors will have a calm conversation with you about your needs and desires, or simply brainstorm where you think your business will be in the next period.'},
-			{ header: '', text: 'For individuals, we offer coaching and mentoring, suggesting supportive subscription services along the way. As we are neither affiliated - nor or get any commission from - any of the solutions we recommend, you can rest assured that you are receiving as close to unbiased advice as can be given amongst fellow humans.' }
+			{ header: 'For small businesses', text: 'Our trusted advisors will have a calm conversation with you about your needs and desires, or simply brainstorm where you think your business will be in the next period.'},
+			{ header: 'For individuals', text: 'We offer coaching and mentoring, suggesting supportive subscription services along the way. As we are neither affiliated - nor get any commission from - any of the solutions we recommend, you can rest assured that you are receiving as close to unbiased advice as can be given amongst fellow humans.' }
 		]}" />
 
 	<TextBlock title="Digital products" icon="📢" items="{[
