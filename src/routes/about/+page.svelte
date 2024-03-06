@@ -1,7 +1,7 @@
 ﻿<script>
-	import TextBlock from '../../TextBlock.svelte';
-	import Subheader from '../../Subheader.svelte';
-	import Header from '../../Header.svelte';
+	import TextBlock from '$components/TextBlock.svelte';
+	import Subheader from '$components/Subheader.svelte';
+	import Header from '$components/Header.svelte';
 </script>
 
 <Header> About us</Header>

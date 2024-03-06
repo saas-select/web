@@ -1,3 +1,7 @@
 ﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+    @apply text-amber-700;
+}

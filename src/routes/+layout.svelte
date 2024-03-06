@@ -1,13 +1,13 @@
 ﻿<script>
 	import '../app.css';
-	import MenuItem from '../MenuItem.svelte';
-	
+	import MenuItem from '$components/MenuItem.svelte';
 </script>
 
 <div class="content-center mx-auto bg-amber-50 rounded-xl shadow-lg flex space-x-4">
 	<main>
 		<div class="m-6 p-6 justify-center max-w-sm mx-auto bg-amber-100 rounded-xl shadow-lg flex space-x-4">
 			<MenuItem href="/" text="🏡" title="Home - SaaS Select Ltd" />
+			<MenuItem href="/blog" text="📰" title="Blog" />
 			<MenuItem href="/courses" text="🧑🏼‍🏫" title="Courses" />
 			<MenuItem href="/about" text="ℹ️" title="About us" />
 			<MenuItem href="/contact" text="📲 📧 " title="Contact" />
